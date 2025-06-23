@@ -23,7 +23,7 @@ export default function Details(){
             <div className="h-96 overflow-hidden rounded-xl group">
                 <img src={recipeDetailsData?.recipe?.image_url}
                 className="w-full h-full object-cover block group-hover:scale-105 duration-300"
-                alt="food image"
+                alt=""
                 />
             </div>
         </div>
