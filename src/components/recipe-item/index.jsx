@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 export default function RecipeItem({item}){
     return <div className="cursor-pointer flex flex-col w-80 overflow-hidden p-5 bg-white/75 shadow-xl gap-5 border-2 rounded-2xl border-white">
                 <div className="h-40 flex justify-center rounded-xl items-center overflow-hidden">
-                    <img src={item?.image_url} className="w-full block"/>
+                    <img src={item?.image_url} className="w-full block" alt='food'/>
                 </div>
                 <div>
                     <span className="text-sm text-cyan-800 font-medium">{item?.publisher}</span>

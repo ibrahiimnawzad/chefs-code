@@ -16,13 +16,14 @@ export default function Details(){
             }
         }
         getRecipeDetails()
-    }, [])
+    }, [id, setRecipeDetailsData])
 
     return <div className="container mx-auto py-10 grid grid-cols-1 lg:grid-cols-2 gap-10">
         <div className="row-start-2 lg:row-start-auto">
             <div className="h-96 overflow-hidden rounded-xl group">
                 <img src={recipeDetailsData?.recipe?.image_url}
                 className="w-full h-full object-cover block group-hover:scale-105 duration-300"
+                alt="food image"
                 />
             </div>
         </div>
